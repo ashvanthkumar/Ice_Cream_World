@@ -1,0 +1,99 @@
+*{
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+body{  
+    background-image: linear-gradient(to right,rgb(195, 226, 246),rgb(136, 204, 249));
+}
+
+.container{
+    display: flex;
+    gap: 30px;
+   
+}
+
+h1{
+    text-align: center;
+    color: rgb(8, 89, 4);
+}
+.items{
+    width: 60%;
+    height: 300px;
+    float: left;
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+    gap: 1.5rem;
+    
+}
+
+.items h3{
+    color: rgb(254, 91, 50);
+}
+
+.items img{
+    width: 100px;
+    height: 150px;
+   
+}
+
+.bill{
+    width: 40%;
+    float: right;
+}
+
+.bh{
+    text-align: center;
+    font-size: 23px;
+    margin: 10px;
+}
+
+table{
+    border: 2px solid rgb(250, 249, 249);
+    border-collapse: collapse;
+    width :100%;
+    text-align: center;
+}
+
+th{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+tbody,td,th{
+    border: 2px solid rgb(252, 251, 251);
+    height: 60px;
+}
+
+.prd{
+    border: 2px solid rgb(252, 251, 251);
+    text-align: center;
+}
+
+.pr{
+    display: flex;
+}
+
+.pr p{
+    float: left;
+}
+
+.pr button{
+    float: right;
+    border: 2px solid white;
+}
+
+.btn{
+    border-radius: 7px;
+    background-color: rgb(71, 240, 184);
+    cursor: pointer;
+}
+
+.tot{
+    float: right;
+    border: 2px solid white;
+    height: 35px;
+    width: 120px;
+    padding: 5px;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to Ice World !</h1>
+    <div class="container">
+        <div class="items">
+            <div class="prd-1 prd">
+                <img src="images/stcone1.png" alt="">
+                <h3>Strawberry Cone</h3>
+                <div class="pr">
+                    <p>Price : 30</p>
+                    
+                    <button class="btn" onclick="add( 'Strawberry Cone',30)">Add to cart</button>
+                </div>
+            </div>
+            <div class="prd-2 prd">
+                <img src="images/stgr.png" alt="">
+                <h3>Pista Icestick</h3>
+                <div class="pr">
+                    <p>Price : 20</p>
+                    <button class="btn" onclick="add( 'Pista Icestick',20)">Add to cart</button>
+                </div>
+            </div>
+            <div class="prd-3 prd">
+                <img src="images/micone.png" alt="">
+                <h3>Chocolate Cone</h3>
+                <div class="pr">
+                    <p>Price : 25</p>
+                    <button class="btn" onclick="add( 'Chocolate Cone',25)" >Add to cart</button>
+                </div>
+            </div>
+            <div class="prd-4 prd">
+                <img src="images/stmulti.png" alt="">
+                <h3>Ice Stick</h3>
+                <div class="pr">
+                    <p>Price : 15</p>
+                    <button class="btn" onclick="add( 'Ice Stick',15)" >Add to cart</button>
+                </div>
+            </div>
+            <div class="prd-5 prd">
+                <img src="images/tricone.png" alt="">
+                <h3>Tri flavour Cone</h3>
+                <div class="pr">
+                    <p>Price : 50</p>
+                    <button class="btn" onclick="add( 'Tri flavour Cone',50)" >Add to cart</button>
+                </div>
+            </div>
+            <div class="prd-6 prd">
+                <img src="images/sttri.png" alt="">
+                <h3>Tri flavour Stick</h3>
+                <div class="pr">
+                    <p>Price : 30</p>
+                    <button class="btn" onclick="add( 'Tri flavour Stick',30)" >Add to cart</button>
+                </div>
+            </div>
+            <div class="prd-6 prd">
+                <img src="images/chacobar.png" alt="">
+                <h3>Chacobar Stick</h3>
+                <div class="pr">
+                    <p>Price : 25</p>
+                    <button class="btn" onclick="add( 'Chacobar Stick',25)" >Add to cart</button>
+                </div>
+            </div>
+            <div class="prd-6 prd">
+                <img src="images/stcone.png" alt="">
+                <h3>Strawberry</h3>
+                <div class="pr">
+                    <p>Price : 30</p>
+                    <button class="btn" onclick="add( 'Strawberry',30)" >Add to cart</button>
+                </div>
+            </div>
+        </div>
+        <div class="bill">
+            <h3 class="bh">Billing Amount</h3>
+            <table id="table">
+                <thead>
+                    <th>S.No</th>
+                    <th>Name</th>
+                    <th>Qty</th>
+                    <th>Price</th>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+            <h3 class="tot">Total : <span id="total"> 0 </span></h3>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
